@@ -1,0 +1,60 @@
+O sistema deve permitir o registo de novos utilizadores no sistema, através de um pequeno formulário.
+O sistema deve dar ao utilizador acesso ao sistema, através de um Username e uma Password se corresponderem.
+O sistema deve permitir a conversão dos planos de treino do treinador para ficheiros externos.
+A geração de ficheiros deverá estar ao alcance de um botão situado no respetivo menu, a que esse ficheiro diz respeito.
+Todos os ficheiros criados pelo sistema, devem estar no formato .pdf.
+O sistema deve permitir que o treinador, transforme as suas observações em formato textual.
+O sistema deve permitir a conversão das observações textuais do treinador para ficheiros externos.
+O sistema deve trabalhar numa plataforma Web.
+O sistema deve permitir que o treinador crie planos de treino.
+(Como treinador quero criar planos de treino para, compilando um conjunto de exercícios, organizar os meus treinos)
+O sistema deve permitir que o treinador crie exercícios.
+(Como treinador quero criar exercícios para indicar em que área pretendo que os meus jogadores trabalhem)
+O sistema deve permitir que o treinador crie treinos.
+(Como treinador quero criar treinos para associar mais que um plano de treino ao mesmo treino)
+O sistema deve permitir que o treinador adicione exercícios aos planos de treino.
+Os exercícios devem ser ou gerais ou específicos para cada posição.
+(Como treinador quero adicionar exercícios aos meus planos de treino para especificar a lista de tarefas que vou abordar)
+O sistema deve permitir que o treinador adicione planos de treino aos treinos.
+(Como treinador quero adicionar planos de treino ao um treino para enriquecer as áreas trabalhadas no mesmo)
+O sistema deve permitir que o treinador marque no calendário os treinos.
+(Como treinador quero marcar treinos no calendário para informar os meus jogadores)
+O sistema deve permitir que o treinador consulte o calendário no formato tabular.
+O sistema deve permitir que o treinador crie perfis de jogador.
+(Como treinador quero criar perfis de jogadores para manter um registo dos mesmos, conhecê-los e avaliá-los)
+O sistema deve permitir que o treinador crie perfis de equipas.
+(Como treinador quero criar perfis de equipas, para manter um registo das mesmas)
+O sistema deve permitir que o treinador associe jogadores a equipas.
+(Como treinador quero associar jogadores a equipas para orientar cada equipa e jogador de uma forma personalizada)
+(Como treinador quero associar jogadores a uma equipa para organizar essa equipa)
+O sistema deve ter como língua de funcionamento o Português, admitindo a existência de alguns empréstimos linguísticos.
+Os exercícios devem ser constituídos por um identificador numérico único, um título, o autor (nome do treinador???), data de criação, tópico sobre o qual pretende incidir, uma breve descrição textual do exercício e um objetivo definido pelo treinador, que cada jogador deverá atingir no seu entender.
+Os ojetivos deverão ser metas concretas a atingir pelo jogador, que se baseiem numa medida numérica, definida por cada treinador, a partir da qual serão tomadas conclusões acerca do seu cumprimento.
+Os planos de treino devem ser constítuidos por um identificador numérico único, um título, autor (nome do treinador???), data de criação, os identificadores numéricos dos exercícios a realizar.
+Os treinos devem ser constítuidos por um identificador numérico único, um título e uma breve descrição textual do plano de treino que vai ser trabalhado, assim como um indentificador numérico da equipa a que se destina.
+O perfil de um jogador deve ser constituído por um identificador numérico único, o nome, a data de nascimento, a posição e um identificador numérico da equipa onde joga.
+O perfil de uma equipa deve ser constituído por um identificador numérico único, o nome, o treinador, a liga, o país, o sexo, faixa etária e os identificadores numéricos dos jogadores que pertencem a essa equipa.
+O sistema deve permitir que o treinador consulte os exercícios mais usados nos seus planos de treino.
+O sistema deve permitir ao treinador registar o desempenho dos jogadores envolvidos no treino durante o mesmo.
+O registo dos desempenhos durante o treino, deverá ser feito através de formato numérico após observação visual do rendimento dos jogadores por parte treinador.
+O sistema deve permitir que treinador crie, no final do treino, uma ficha de resumo desse treino.
+A ficha de treino deve conter a data do treino, nome do treinador, nome da equipa, os jogadores envolvidos e suas informações (posição, idade e nome), os objetivos dos exercícios trabalhados no treino e os resultados de cada um, assim como uma média de desempenho dos jogadores da equipa, para cada um dos exercícios. (PODEMOS SEPARAR EM VÁRIOS REQUISITOS???)
+O desempenho médio da equipa em cada exercício será a média aritmética dos valores atingidos por cada jogador em cada exercício.
+O sistema deve permitir que o treinador converta o documento com o desempenho para um ficheiro externo.
+O sistema terá as opções de criação (jogadores, planos, treinos...) organizadas num menu lateral???
+O sistema terá as opções de consulta (jogadores, treinos, planos, relatórios...) organizadas num menu superior???
+O treinador deve ser capaz de retirar uma ficha informativa de cada equipa, com informações como o nome, treinador, liga... e a listagem de todos os jogadores e as suas informações (nomes, posições, números), assim como elementos como média de idades, total de jogadores... (OUTROS ELEMENTOS DE ANÁLISE DE DADOS QUE PODEMOS INCLUIR???)
+
+
+
+
+
+REQUISITOS LEGAIS
+
+O sistema deve cumprir a Lei nº46/2012 de 29 de Agosto sobre Cookies/e-privacy.
+O sistema deve cumprir a Lei nº67/98 de 26 de Outubro sobre proteção de dados pessoais.
+O sistema deve informar o utilizador acerca da política de Cookies.
+O sistema deve informar o utilizador acerca da política de Privacidade.
+O sistema deve informar o utilizador acerca das informações de direitos de autor.
+O sistema deve inscrever a Base de Dados na Comissão Nacional de Proteção de Dados.
+O sistema deve ter todas as datas no formato ISO 8601.
